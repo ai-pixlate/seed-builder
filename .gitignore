@@ -1,0 +1,59 @@
+# ==========================================================
+# .gitignore  —  git 에 올리지 않을 파일 목록
+#
+#  * 여기 적힌 파일은 실수로도 git 에 올라가지 않는다.
+#  * 원칙: "코드와 문서"만 올린다. 코드를 돌리면 다시 만들어지는
+#          결과물(이미지, CSV, 엑셀 등)은 올리지 않는다.
+# ==========================================================
+
+# ----- 1. 비밀 정보 (절대 올리면 안 됨) -----
+.env
+!.env.example
+
+# ----- 2. 파이썬이 자동으로 만드는 임시 파일 -----
+__pycache__/
+*.pyc
+
+# ----- 3. 내려받은 이미지 (약 570MB) -----
+images/
+images_pair/
+
+# ----- 4. 긁어온 원본 HTML (한 개가 2MB 넘음) -----
+*_raw.html
+pair_raw_*.html
+
+# ----- 5. 스크래핑 결과 JSON -----
+validation_10_products.json
+sample_result.json
+product_001*.json
+pair_products*.json
+
+# ----- 6. 표로 정리한 결과물 (CSV / 엑셀) -----
+out_*.csv
+pair_*.csv
+asin_list.csv
+download_failed.csv
+ocr_reordered_for_sheets.csv
+*.xlsx
+
+# ----- 7. OCR 진행상황 / 로그 / 보고서 -----
+ocr_progress*.json
+*_log.txt
+review_report.txt
+pair_review_report.txt
+asin_list_python.txt
+aplus_id_list.txt
+module_name_comparison.txt
+
+# ----- 8. 식약처(mfds) 작업 결과물 -----
+mfds/raw/
+mfds/report_*.csv
+
+# ----- 9. 백업 파일 -----
+*.bak
+*_before_*.json
+
+# ----- 10. 운영체제가 만드는 잡파일 -----
+Thumbs.db
+desktop.ini
+.DS_Store

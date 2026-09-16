@@ -1,0 +1,13 @@
+# 설치:  py -3.12 -m pip install -r requirements.txt
+#
+# OCR(paddle) 은 버전이 서로 맞아야 동작한다.
+# paddleocr 3.7 의 기본 모델(PP-OCRv6)은 paddlepaddle 3.0.0 에서 죽기 때문에
+# run_ocr.py 안에서 PP-OCRv5 모델을 명시적으로 지정해 쓰고 있다.
+
+requests
+beautifulsoup4
+openpyxl
+numpy
+opencv-python==4.10.0.84
+paddlepaddle==3.0.0
+paddleocr==3.7.0
