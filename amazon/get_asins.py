@@ -10,6 +10,17 @@ ASIN + 상품명 + 브랜드(추정) 을 뽑아 asin_list.csv 로 저장한다.
 실행:  python get_asins.py
 """
 
+# ── 실행 위치와 상관없이 저장소 최상위 폴더를 기준으로 동작하게 만든다 ──────────
+#    이 파일은 하위 폴더에 있지만, 읽고 쓰는 CSV 등은 모두 최상위 폴더에 있다.
+#    sys.path : 최상위의 env_loader.py 를 import 할 수 있게 한다
+#    os.chdir : "out_images.csv" 같은 파일명이 항상 최상위를 가리키게 한다
+import os as _os, sys as _sys
+from pathlib import Path as _Path
+_ROOT = _Path(__file__).resolve().parent.parent
+_sys.path.insert(0, str(_ROOT))
+_os.chdir(_ROOT)
+# ──────────────────────────────────────────────────────────────────────────
+
 import requests
 import json
 import re

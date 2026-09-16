@@ -25,14 +25,25 @@ OCR을 다시 돌리지 않는다. 저장된 좌표만 보고 순서를 재배�
 실행:  py -3 reorder_ocr.py
 """
 
+# ── 실행 위치와 상관없이 저장소 최상위 폴더를 기준으로 동작하게 만든다 ──────────
+#    이 파일은 하위 폴더에 있지만, 읽고 쓰는 CSV 등은 모두 최상위 폴더에 있다.
+#    sys.path : 최상위의 env_loader.py 를 import 할 수 있게 한다
+#    os.chdir : "out_images.csv" 같은 파일명이 항상 최상위를 가리키게 한다
+import os as _os, sys as _sys
+from pathlib import Path as _Path
+_ROOT = _Path(__file__).resolve().parent.parent
+_sys.path.insert(0, str(_ROOT))
+_os.chdir(_ROOT)
+# ──────────────────────────────────────────────────────────────────────────
+
 import csv
 import io
 import statistics
 
-LINES_CSV = "pair_ocr_lines.csv"
-IMAGES_CSV = "pair_images_ocr.csv"
-OUT_LINES = "pair_ocr_lines_ordered.csv"
-OUT_IMAGES = "pair_images_ocr_ordered.csv"
+LINES_CSV = "out_ocr_lines.csv"
+IMAGES_CSV = "out_images_ocr.csv"
+OUT_LINES = "out_ocr_lines_ordered.csv"
+OUT_IMAGES = "out_images_ocr_ordered.csv"
 ENCODING = "utf-8-sig"
 
 # 여백이 글자 높이의 몇 배 이상이어야 "칸/문단이 나뉘었다"고 볼지.
