@@ -11,3 +11,6 @@ numpy
 opencv-python==4.10.0.84
 paddlepaddle==3.0.0
 paddleocr==3.7.0
+
+# 한국어 OCR 후처리(korean/kr_ocr_blocks.py)의 줄 사이 띄어쓰기 판단
+kiwipiepy==0.23.2
