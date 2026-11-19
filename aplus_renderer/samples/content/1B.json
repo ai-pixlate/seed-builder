@@ -1,0 +1,11 @@
+{
+  "template": "1B",
+  "mirror": false,
+  "image": {
+    "src": "samples/images/model.png",
+    "fit": "cover"
+  },
+  "overlay": true,
+  "headline": "Calm, dewy skin",
+  "body": "A lightweight gel cream that absorbs fast and layers well under makeup."
+}

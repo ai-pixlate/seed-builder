@@ -1,0 +1,22 @@
+{
+  "template": "7B",
+  "mirror": false,
+  "headline": "Our promise",
+  "items": [
+    {
+      "title": "Gentle formulas",
+      "body": "Made without parabens or added fragrance",
+      "image": "samples/images/icon.png"
+    },
+    {
+      "title": "Recyclable packaging",
+      "body": "Bottles and cartons made to be recycled",
+      "image": "samples/images/icon.png"
+    },
+    {
+      "title": "Made in Korea",
+      "body": "Developed and produced in Seoul",
+      "image": "samples/images/icon.png"
+    }
+  ]
+}

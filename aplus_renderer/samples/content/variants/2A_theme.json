@@ -1,0 +1,27 @@
+{
+  "template": "2A",
+  "mirror": false,
+  "image": {
+    "src": "samples/images/product.png",
+    "fit": "contain"
+  },
+  "headline": "Why you'll love it",
+  "body": "Lightweight gel cream for all-day hydration.",
+  "items": [
+    {
+      "title": "72-hour hydration"
+    },
+    {
+      "title": "Soothes the look of redness"
+    },
+    {
+      "title": "Non-sticky finish"
+    }
+  ],
+  "theme": {
+    "bg": "#FFF8F3",
+    "photo_bg": "#F6E3DA",
+    "text": "#3A2A28",
+    "accent": "#C0675A"
+  }
+}

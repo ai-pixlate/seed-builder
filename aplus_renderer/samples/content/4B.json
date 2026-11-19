@@ -1,0 +1,19 @@
+{
+  "template": "4B",
+  "mirror": false,
+  "headline": "Gentle by design",
+  "items": [
+    {
+      "title": "Dermatologist Tested",
+      "image": "samples/images/badge.png"
+    },
+    {
+      "title": "Hypoallergenic",
+      "image": "samples/images/badge.png"
+    },
+    {
+      "title": "Vegan Certified",
+      "image": "samples/images/badge.png"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "template": "3A",
+  "mirror": false,
+  "image": {
+    "src": "samples/images/ingredient.png",
+    "fit": "cover"
+  },
+  "headline": "Hyaluronic Acid & Ceramide Complex",
+  "subheadline": "Deep, lasting moisture",
+  "body": "Multi-weight hyaluronic acid draws moisture into the skin's surface layers for a smooth, bouncy look."
+}

@@ -1,0 +1,14 @@
+{
+  "template": "7A",
+  "mirror": false,
+  "image": {
+    "src": "samples/images/mood.png",
+    "fit": "cover"
+  },
+  "headline": "LUMERA",
+  "body": "LUMERA began in a small Seoul lab with one idea: skincare should feel as calm as it looks. We pair gentle Korean botanicals with proven hydrators, test every formula on sensitive skin, and keep our ingredient lists short and clear.",
+  "style": {
+    "label": "pill",
+    "headline_underline": "line"
+  }
+}

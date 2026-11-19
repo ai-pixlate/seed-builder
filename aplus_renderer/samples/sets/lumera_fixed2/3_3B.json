@@ -1,0 +1,25 @@
+{
+  "template": "3B",
+  "image": {
+    "src": "samples/images/product.png",
+    "fit": "contain"
+  },
+  "headline": "Key ingredients",
+  "items": [
+    {
+      "title": "Hyaluronic Acid",
+      "body": "Holds moisture for a plump, bouncy look",
+      "image": "samples/images/icon.png"
+    },
+    {
+      "title": "Centella Asiatica",
+      "body": "Soothes and comforts dry, tight skin",
+      "image": "samples/images/icon.png"
+    },
+    {
+      "title": "Ceramide NP",
+      "body": "Supports the skin's moisture barrier",
+      "image": "samples/images/icon.png"
+    }
+  ]
+}
