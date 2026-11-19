@@ -1,0 +1,23 @@
+{
+  "template": "6A",
+  "mirror": false,
+  "headline": "How to use",
+  "round_images": true,
+  "items": [
+    {
+      "title": "Cleanse",
+      "body": "Wash your face and gently pat dry.",
+      "image": "samples/images/step.png"
+    },
+    {
+      "title": "Apply",
+      "body": "Smooth a pea-sized amount over face.",
+      "image": "samples/images/step.png"
+    },
+    {
+      "title": "Pat gently",
+      "body": "Pat lightly until fully absorbed.",
+      "image": "samples/images/step.png"
+    }
+  ]
+}

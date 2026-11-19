@@ -1,0 +1,22 @@
+{
+  "template": "4B",
+  "mirror": false,
+  "mode": "before_after",
+  "headline": "See the difference",
+  "items": [
+    {
+      "title": "Before",
+      "image": {
+        "src": "samples/images/before.png",
+        "fit": "cover"
+      }
+    },
+    {
+      "title": "After",
+      "image": {
+        "src": "samples/images/after.png",
+        "fit": "cover"
+      }
+    }
+  ]
+}

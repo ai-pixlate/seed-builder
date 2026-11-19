@@ -1,0 +1,12 @@
+{
+  "template": "1A",
+  "mirror": false,
+  "image": {
+    "src": "samples/images/product.png",
+    "fit": "contain"
+  },
+  "label": "LUMERA",
+  "headline": "Hydra Calm Gel Cream for Sensitive Skin",
+  "subheadline": "Lightweight hydration for sensitive skin",
+  "body": "A cooling gel cream with hyaluronic acid and centella that leaves skin soft and comfortable."
+}

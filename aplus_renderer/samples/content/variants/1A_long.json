@@ -1,0 +1,12 @@
+{
+  "template": "1A",
+  "mirror": false,
+  "image": {
+    "src": "samples/images/product.png",
+    "fit": "contain"
+  },
+  "label": "LUMERA",
+  "headline": "Hydra Calm Ultra-Light Gel Cream for Sensitive, Dehydrated Skin",
+  "subheadline": "Lightweight hydration for sensitive skin",
+  "body": "A cooling, featherlight gel cream made with three types of hyaluronic acid, centella asiatica and ceramides. It melts into skin in seconds, leaves no sticky film, sits well under sunscreen and makeup, and keeps skin feeling soft, plump and comfortable from morning until night."
+}

@@ -1,0 +1,31 @@
+{
+  "template": "2B",
+  "mirror": false,
+  "image": {
+    "src": "samples/images/product.png",
+    "fit": "contain"
+  },
+  "items": [
+    {
+      "title": "72-hour hydration",
+      "body": "Helps skin hold moisture all day long.",
+      "image": "samples/images/icon.png"
+    },
+    {
+      "title": "Soothes the look of redness",
+      "body": "Centella comforts skin that feels stressed.",
+      "image": "samples/images/icon.png"
+    },
+    {
+      "title": "Non-sticky finish",
+      "body": "Absorbs fast with a fresh, soft feel.",
+      "image": "samples/images/icon.png"
+    },
+    {
+      "title": "Supports the skin barrier",
+      "body": "Ceramides help keep skin smooth and supple.",
+      "image": "samples/images/icon.png"
+    }
+  ],
+  "layout": "zigzag"
+}

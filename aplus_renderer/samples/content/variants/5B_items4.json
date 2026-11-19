@@ -1,0 +1,27 @@
+{
+  "template": "5B",
+  "mirror": false,
+  "headline": "Complete your routine",
+  "items": [
+    {
+      "title": "Hydra Calm Toner",
+      "body": "Preps skin with a light layer of moisture",
+      "image": "samples/images/product_tall.png"
+    },
+    {
+      "title": "Hydra Calm Gel Cream",
+      "body": "All-day hydration with a non-sticky finish",
+      "image": "samples/images/product.png"
+    },
+    {
+      "title": "Hydra Calm Night Mask",
+      "body": "Rich overnight care for soft morning skin",
+      "image": "samples/images/product_jar.png"
+    },
+    {
+      "title": "Hydra Calm Toner Pads",
+      "body": "Quick, soothing prep on busy mornings",
+      "image": "samples/images/product_jar.png"
+    }
+  ]
+}

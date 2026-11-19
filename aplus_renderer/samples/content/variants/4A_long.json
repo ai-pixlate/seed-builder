@@ -1,0 +1,13 @@
+{
+  "template": "4A",
+  "mirror": false,
+  "image": {
+    "src": "samples/images/product.png",
+    "fit": "contain"
+  },
+  "mark": {
+    "src": "samples/images/badge.png"
+  },
+  "headline": "Dermatologist Tested and Clinically Evaluated for Sensitive Skin",
+  "body": "Tested on 32 adults with self-reported sensitive skin under the supervision of a board-certified dermatologist over four weeks of twice-daily use. Individual results may vary. Patch test before first use."
+}

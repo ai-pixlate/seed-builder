@@ -1,0 +1,17 @@
+{
+  "template": "4A",
+  "mirror": false,
+  "image": {
+    "src": "samples/images/product.png",
+    "fit": "contain"
+  },
+  "mark": {
+    "src": "samples/images/badge.png"
+  },
+  "headline": "Dermatologist Tested",
+  "body": "Tested on sensitive skin under dermatologist supervision. Individual results may vary.",
+  "style": {
+    "photo_shape": "rounded",
+    "photo_backdrop": "arch"
+  }
+}

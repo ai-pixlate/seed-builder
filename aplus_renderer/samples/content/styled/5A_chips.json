@@ -1,0 +1,32 @@
+{
+  "template": "5A",
+  "mirror": false,
+  "headline": "Choose your shade",
+  "items": [
+    {
+      "title": "Petal",
+      "color": "#F2C4C0"
+    },
+    {
+      "title": "Rose",
+      "color": "#E39A9C"
+    },
+    {
+      "title": "Coral",
+      "color": "#EE8B6E"
+    },
+    {
+      "title": "Berry",
+      "color": "#B4485E"
+    },
+    {
+      "title": "Plum",
+      "color": "#7E3A55"
+    },
+    {
+      "title": "Nude",
+      "color": "#D9A88C"
+    }
+  ],
+  "layout": "chips"
+}

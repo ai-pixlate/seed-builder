@@ -1,0 +1,21 @@
+{
+  "template": "2A",
+  "mirror": false,
+  "image": {
+    "src": "samples/images/product.png",
+    "fit": "contain"
+  },
+  "headline": "Why thousands of people love this lightweight cream",
+  "body": "Lightweight gel cream for all-day hydration.",
+  "items": [
+    {
+      "title": "Up to 72 hours of lightweight, long-lasting hydration for dry skin"
+    },
+    {
+      "title": "Helps soothe the look of redness and comforts skin that feels tight"
+    },
+    {
+      "title": "Non-sticky finish"
+    }
+  ]
+}
